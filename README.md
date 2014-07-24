@@ -11,6 +11,7 @@ Usage:
         android:layout_height="match_parent"
         />
 
+
         View header = LayoutInflater.from(getContext()).inflate(R.layout.header, this, false);
         HeaderGridView grid = (HeaderGridView) findViewById(R.id.grid_view_header);
         grid.addHeaderView(header);
